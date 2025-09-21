@@ -17,7 +17,6 @@ namespace LoginForm
         {
             InitializeComponent();
         }
-
         private void AdminLogin_Load(object sender, EventArgs e)
         {
 
