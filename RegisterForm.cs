@@ -24,6 +24,7 @@ namespace LoginForm
             this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
         }
 
+
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
 

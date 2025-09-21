@@ -137,6 +137,18 @@
       <DependentUpon>PopQuestion.cs</DependentUpon>
     </Compile>
     <Compile Include="Question.cs" />
+    <Compile Include="AddTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTest.Designer.cs">
+      <DependentUpon>AddTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavForm.Designer.cs">
+      <DependentUpon>NavForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +187,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PopQuestion.resx">
       <DependentUpon>PopQuestion.cs</DependentUpon>
+    <EmbeddedResource Include="AddTest.resx">
+      <DependentUpon>AddTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavForm.resx">
+      <DependentUpon>NavForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
@@ -214,6 +231,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin-pass.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
