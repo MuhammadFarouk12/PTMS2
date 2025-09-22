@@ -194,7 +194,6 @@ C:\Users\Muham\source\repos\PTMS\obj\Debug\BrightTest.csproj.Up2Date
 C:\Users\Muham\source\repos\PTMS\obj\Debug\LoginForm.exe
 C:\Users\Muham\source\repos\PTMS\obj\Debug\LoginForm.pdb
 C:\Users\Muham\source\repos\PTMS\obj\Debug\LoginForm.Test.resources
-<<<<<<< HEAD
 C:\Users\VICTUS\source\repos\PTMS\obj\Debug\LoginForm.Test.resources
 C:\Users\VICTUS\source\repos\PTMS\obj\Debug\LoginForm.AdminLogin.resources
 C:\Users\VICTUS\source\repos\PTMS\obj\Debug\LoginForm.AddTest.resources
@@ -270,7 +269,6 @@ C:\Users\Muham\source\repos\PTMS2\bin\Debug\System.Threading.Tasks.Extensions.xm
 C:\Users\Muham\source\repos\PTMS2\obj\Debug\BrightTest.csproj.Up2Date
 C:\Users\Muham\source\repos\PTMS2\obj\Debug\LoginForm.exe.config
 C:\Users\Muham\source\repos\PTMS2\obj\Debug\LoginForm.TestView.resources
-=======
 C:\Users\MATTHEW\Documents\PTMS\obj\Debug\LoginForm.Dashboard.resources
 C:\Users\MATTHEW\Documents\PTMS\obj\Debug\LoginForm.Test.resources
->>>>>>> 224e5f4 (Addthe dashboard page)
+C:\Users\Muham\source\repos\PTMS2\obj\Debug\LoginForm.Dashboard.resources
