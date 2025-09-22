@@ -72,5 +72,17 @@ namespace LoginForm
         {
 
         }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox5_Click(object sender, EventArgs e)
+        {
+            TestView viewTests = new TestView();
+            viewTests.Show();
+            this.Hide();
+        }
     }
 }

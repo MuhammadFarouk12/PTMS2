@@ -42,8 +42,9 @@ namespace LoginForm
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            TestView adminlogin = new TestView();
+            AdminLogin adminlogin = new AdminLogin();
             adminlogin.Show();
+            this.Hide();
         }
     }
 }

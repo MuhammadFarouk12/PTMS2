@@ -268,3 +268,4 @@ C:\Users\Muham\source\repos\PTMS2\bin\Debug\System.Runtime.CompilerServices.Unsa
 C:\Users\Muham\source\repos\PTMS2\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Muham\source\repos\PTMS2\obj\Debug\BrightTest.csproj.Up2Date
 C:\Users\Muham\source\repos\PTMS2\obj\Debug\LoginForm.exe.config
+C:\Users\Muham\source\repos\PTMS2\obj\Debug\LoginForm.TestView.resources
