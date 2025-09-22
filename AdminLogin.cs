@@ -17,15 +17,7 @@ namespace LoginForm
         {
             InitializeComponent();
         }
-        private void AdminLogin_Load(object sender, EventArgs e)
-        {
-
-
-            btnExit.BackColor = ColorTranslator.FromHtml("#005B9C");
-            btnLogin.BackColor = ColorTranslator.FromHtml("#005B9C");
-            guna2Panel2.BackColor = ColorTranslator.FromHtml("#E6F0F9");
-            this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
-        }
+        
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {

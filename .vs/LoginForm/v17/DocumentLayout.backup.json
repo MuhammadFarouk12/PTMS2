@@ -1,58 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\",
+  "WorkspaceRootPath": "C:\\Users\\Muham\\source\\repos\\PTMS2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\source\\repos\\ptms2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\muham\\source\\repos\\ptms2\\adminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:AddTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:AddTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\studentlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:studentlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\RegisterForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:RegisterForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\source\\repos\\PTMS2\\StudentLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:StudentLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdminLogin.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs",
               "RelativeDocumentMoniker": "AdminLogin.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AdminLogin.cs",
-              "RelativeToolTip": "AdminLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs*",
+              "RelativeToolTip": "AdminLogin.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wBMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T22:00:43.849Z",
               "IsPinned": true,
@@ -83,12 +51,45 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "AdminLogin.cs",
+              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs [Design]*",
+              "RelativeToolTip": "AdminLogin.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T03:54:56.966Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AdminLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.Designer.cs",
+              "RelativeDocumentMoniker": "AdminLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.Designer.cs",
+              "RelativeToolTip": "AdminLogin.Designer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAGwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T03:49:33.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NavForm.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\NavForm.cs",
+              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
               "RelativeDocumentMoniker": "NavForm.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\NavForm.cs",
+              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
               "RelativeToolTip": "NavForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,129 +97,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NavForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\NavForm.cs",
+              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
               "RelativeDocumentMoniker": "NavForm.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS\\NavForm.cs [Design]",
-              "RelativeToolTip": "..\\PTMS\\NavForm.cs [Design]",
+              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs [Design]",
+              "RelativeToolTip": "NavForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T18:43:32.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AdminLogin.cs",
-              "RelativeDocumentMoniker": "AdminLogin.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS\\AdminLogin.cs [Design]",
-              "RelativeToolTip": "..\\PTMS\\AdminLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T22:00:31.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddTest.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs",
-              "RelativeDocumentMoniker": "AddTest.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs",
-              "RelativeToolTip": "AddTest.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAiwMQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T21:59:21.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddTest.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs",
-              "RelativeDocumentMoniker": "AddTest.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\AddTest.cs [Design]",
-              "RelativeToolTip": "AddTest.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T21:43:07.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\StudentLogin.cs",
-              "RelativeDocumentMoniker": "StudentLogin.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS\\StudentLogin.cs [Design]",
-              "RelativeToolTip": "..\\PTMS\\StudentLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T14:42:16.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "..\\PTMS\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:35:58.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\Test.cs",
-              "RelativeDocumentMoniker": "Test.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\Test.cs",
-              "RelativeToolTip": "Test.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:34:16.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Test.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\Test.cs",
-              "RelativeDocumentMoniker": "Test.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS\\Test.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Muham\\source\\repos\\PTMS\\Test.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T18:50:50.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T18:27:39.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\RegisterForm.cs",
-              "RelativeToolTip": "RegisterForm.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxsAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T17:54:05.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StudentLogin.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\StudentLogin.cs",
-              "RelativeDocumentMoniker": "StudentLogin.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\source\\repos\\PTMS2\\StudentLogin.cs",
-              "RelativeToolTip": "StudentLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T11:35:57.336Z"
             }
           ]
         }
