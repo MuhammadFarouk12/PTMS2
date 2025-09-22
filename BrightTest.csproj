@@ -184,8 +184,9 @@
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
 
-    <EmbeddedResource Include="AdminLogin.resx">
-      <DependentUpon>AdminLogin.cs</DependentUpon>
+	  <EmbeddedResource Include="AdminLogin.resx">
+		  <DependentUpon>AdminLogin.cs</DependentUpon>
+	  </EmbeddedResource>
 
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
