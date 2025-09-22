@@ -1,5 +1,8 @@
 ﻿using System;
+<<<<<<< HEAD
 using MySql.Data.MySqlClient;
+=======
+>>>>>>> 224e5f4 (Addthe dashboard page)
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,10 +16,13 @@ namespace LoginForm
 {
     public partial class Test : Form
     {
+<<<<<<< HEAD
         public List<int> quizesId = new List<int>();
         public static List<Question> questions = new List<Question>();
         public static int randomQuiz = 0;
 
+=======
+>>>>>>> 224e5f4 (Addthe dashboard page)
         public Test()
         {
             InitializeComponent();
@@ -26,6 +32,7 @@ namespace LoginForm
         {
             helloTestLbael.Text = "Hello " + User.First_Name + " " + User.Last_Name + ", Answer all questions";
         }
+<<<<<<< HEAD
         private void btn_startExam_Click(object sender, EventArgs e)
         {
             Examination.start_time = DateTime.Now.ToString("yy:MM:dd HH:mm:ss");
@@ -90,5 +97,7 @@ namespace LoginForm
                 // MessageBox.Show("Incorrect Phone Number");
             }
         }
+=======
+>>>>>>> 224e5f4 (Addthe dashboard page)
     }
 }

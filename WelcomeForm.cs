@@ -42,9 +42,16 @@ namespace LoginForm
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             AdminLogin adminlogin = new AdminLogin();
             adminlogin.Show();
             this.Hide();
+=======
+            //AdminLogin adminlogin = new AdminLogin();
+            //adminlogin.Show();
+            Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+>>>>>>> 224e5f4 (Addthe dashboard page)
         }
     }
 }

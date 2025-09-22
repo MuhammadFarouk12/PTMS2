@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -112,9 +112,18 @@
     <Compile Include="AdminLogin.Designer.cs">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Answer.cs" />
     <Compile Include="DatabaseUtil.cs" />
     <Compile Include="Examination.cs" />
+
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +155,7 @@
     <Compile Include="NavForm.Designer.cs">
       <DependentUpon>NavForm.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Test.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,12 +183,18 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
+
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="AddTest.resx">
       <DependentUpon>AddTest.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +207,11 @@
     <EmbeddedResource Include="TestView.resx">
       <DependentUpon>TestView.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>

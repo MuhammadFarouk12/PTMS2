@@ -23,7 +23,11 @@ namespace LoginForm
             guna2Panel2.BackColor = ColorTranslator.FromHtml("#E6F0F9");
             this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
         }
+<<<<<<< HEAD
 
+=======
+        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";
+>>>>>>> 224e5f4 (Addthe dashboard page)
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
@@ -45,7 +49,11 @@ namespace LoginForm
               // insert data to database 
               try
             {
+<<<<<<< HEAD
                 using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
+=======
+                using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+>>>>>>> 224e5f4 (Addthe dashboard page)
                 {
 
                     using (MySqlCommand checkPass = new MySqlCommand("select count(phone_number) from student where phone_number = @phone_number", connection))
