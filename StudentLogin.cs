@@ -25,11 +25,8 @@ namespace LoginForm
             this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
 
         }
-<<<<<<< HEAD
 
-=======
         public string ConnectionString =  "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";        
->>>>>>> 224e5f4 (Addthe dashboard page)
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
@@ -130,11 +127,7 @@ namespace LoginForm
         {
             try
             {
-<<<<<<< HEAD
                 using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
-=======
-                using (MySqlConnection connection = new MySqlConnection(ConnectionString))
->>>>>>> 224e5f4 (Addthe dashboard page)
                 {
                     using (MySqlCommand checkPass = new MySqlCommand("select * from student where phone_number = @phone_number", connection))
                     {

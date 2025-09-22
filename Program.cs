@@ -16,12 +16,8 @@ namespace LoginForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
 
             Application.Run(new WelcomeForm());
-=======
-            Application.Run(new Form1());
->>>>>>> 224e5f4 (Addthe dashboard page)
         }
     }
 }

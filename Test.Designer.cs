@@ -61,10 +61,7 @@
             this.btn_startExam.Size = new System.Drawing.Size(304, 48);
             this.btn_startExam.TabIndex = 1;
             this.btn_startExam.Text = "Take The Exam";
-<<<<<<< HEAD
             this.btn_startExam.Click += new System.EventHandler(this.btn_startExam_Click);
-=======
->>>>>>> 224e5f4 (Addthe dashboard page)
             // 
             // guna2HtmlLabel1
             // 
