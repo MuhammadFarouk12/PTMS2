@@ -374,11 +374,6 @@ FodyWeavers.xsd
 !*.xaml
 !*.resx
 
-# But ignore designer files (they're auto-generated)
-*.Designer.cs
-*.Designer.vb
-*.designer.fs# Windows Forms specific gitignore
-
 # Build outputs
 [Bb]in/
 [Oo]bj/
