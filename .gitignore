@@ -428,7 +428,3 @@ publish/
 !*.cs
 !*.vb
 !*.xaml
-
-# But ignore auto-generated designer files
-*.Designer.cs
-*.Designer.vb
