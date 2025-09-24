@@ -8,6 +8,6 @@ namespace LoginForm
 {
     public class DatabaseUtil
     {
-        public static string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";        
+        public static string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234";        
     }
 }

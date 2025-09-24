@@ -18,7 +18,7 @@ namespace LoginForm
         {
             InitializeComponent();
         }
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=himo7723**";
+        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234";
 
         private void AddTest_Load(object sender, EventArgs e)
         {

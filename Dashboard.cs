@@ -128,7 +128,7 @@ inner join level on examination.level_id = level.level_id
             {
                 string firstName = teb_name.Text.Trim();
                 string lastName = txb_lastName.Text.Trim();
-                string phone = txb_phone.Text.Trim(); // لا نستخدم int
+                string phone = txb_phone.Text.Trim(); 
 
                 using (MySqlConnection connection = new MySqlConnection(ConnectionString))
                 {
@@ -179,5 +179,9 @@ inner join level on examination.level_id = level.level_id
             loadData();
         }
 
+        private void but_delete_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
