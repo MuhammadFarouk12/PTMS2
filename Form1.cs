@@ -21,11 +21,10 @@ namespace LoginForm
 
             Application.Run(new WelcomeForm());
         }
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";
 
         public bool CheckPassword(int id, string password)
         {
-            using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+            using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
             {
                 using (MySqlCommand checkPass = new MySqlCommand("select password from student where std_id = @std_id", connection))
                 {

@@ -46,9 +46,9 @@
             this.wlcmePanl.Controls.Add(this.guna2PictureBox2);
             this.wlcmePanl.Controls.Add(this.guna2Button1);
             this.wlcmePanl.Controls.Add(this.guna2Button2);
-            this.wlcmePanl.Location = new System.Drawing.Point(94, 70);
+            this.wlcmePanl.Location = new System.Drawing.Point(81, 57);
             this.wlcmePanl.Name = "wlcmePanl";
-            this.wlcmePanl.Size = new System.Drawing.Size(944, 609);
+            this.wlcmePanl.Size = new System.Drawing.Size(809, 495);
             this.wlcmePanl.TabIndex = 0;
             // 
             // guna2HtmlLabel2
@@ -56,9 +56,9 @@
             this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(189, 280);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(162, 227);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(669, 120);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(573, 98);
             this.guna2HtmlLabel2.TabIndex = 24;
             this.guna2HtmlLabel2.Text = "Welcome to BrightTest\r\n\r\nYour journey in education begins here.\r\n\r\nAccess your te" +
     "sts, track progress, and achieve excellence — \r\nwith tools designed for learning" +
@@ -68,9 +68,9 @@
             // 
             this.guna2PictureBox2.Image = global::LoginForm.Properties.Resources.Log;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(317, 3);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(272, 3);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(348, 257);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(298, 209);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 23;
             this.guna2PictureBox2.TabStop = false;
@@ -83,9 +83,9 @@
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(655, 520);
+            this.guna2Button1.Location = new System.Drawing.Point(561, 422);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(154, 36);
             this.guna2Button1.TabIndex = 26;
             this.guna2Button1.Text = "Login as an admin";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -98,18 +98,18 @@
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(127, 520);
+            this.guna2Button2.Location = new System.Drawing.Point(109, 422);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(154, 36);
             this.guna2Button2.TabIndex = 25;
             this.guna2Button2.Text = "Login as a student";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // WelcomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 720);
+            this.ClientSize = new System.Drawing.Size(929, 512);
             this.Controls.Add(this.wlcmePanl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WelcomeForm";
