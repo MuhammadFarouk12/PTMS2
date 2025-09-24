@@ -16,7 +16,6 @@ namespace LoginForm
     public partial class Dashboard : Form
     {
 
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234";
         public Dashboard()
         {
             InitializeComponent();
@@ -28,22 +27,21 @@ namespace LoginForm
         //to load the data from the database to the datagridview
         private void loadData()
         {
-            using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+            using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
 
                 try
                 {
                     string query = @"SELECT 
-     
     concat(student.first_name,' ', student.last_name) as Student_Name ,
     quiz.quiz_name as Quiz,
     final_mark,
     start_time,
     end_time,
     level.level_name
-FROM examination 
-INNER JOIN student  ON student_id = student.std_id 
-inner join quiz on examination.quiz_id = quiz.quiz_id
-inner join level on examination.level_id = level.level_id
+    FROM examination 
+    INNER JOIN student  ON student_id = student.std_id 
+    inner join quiz on examination.quiz_id = quiz.quiz_id
+    inner join level on examination.level_id = level.level_id
 ";
                     {
                         connection.Open();
@@ -130,30 +128,29 @@ inner join level on examination.level_id = level.level_id
                 string lastName = txb_lastName.Text.Trim();
                 string phone = txb_phone.Text.Trim(); 
 
-                using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+                using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
                 {
                     connection.Open();
 
-                    // بناء الاستعلام ديناميكياً حسب المدخلات
-                    string query = "SELECT std_id, first_name, last_name, phone_number FROM student WHERE 1=1";
+                    string query = "SELECT concat(student.first_name,' ', student.last_name) as Student_Name , quiz.quiz_name as Quiz, final_mark, start_time, end_time, level.level_name FROM examination INNER JOIN student  ON student_id = student.std_id inner join quiz on examination.quiz_id = quiz.quiz_id inner join level on examination.level_id = level.level_id WHERE 1=1";
                     MySqlCommand command = new MySqlCommand();
                     command.Connection = connection;
 
                     if (!string.IsNullOrEmpty(firstName))
                     {
-                        query += " AND first_name LIKE @first_name";
+                        query += " AND student.first_name LIKE @first_name";
                         command.Parameters.AddWithValue("@first_name", "%" + firstName + "%");
                     }
 
                     if (!string.IsNullOrEmpty(lastName))
                     {
-                        query += " AND last_name LIKE @last_name";
+                        query += " AND student.last_name LIKE @last_name";
                         command.Parameters.AddWithValue("@last_name", "%" + lastName + "%");
                     }
 
                     if (!string.IsNullOrEmpty(phone))
                     {
-                        query += " AND phone_number LIKE @phone";
+                        query += " AND student.phone_number LIKE @phone";
                         command.Parameters.AddWithValue("@phone", "%" + phone + "%");
                     }
 
@@ -167,7 +164,7 @@ inner join level on examination.level_id = level.level_id
             }
             catch (Exception ex)
             {
-                MessageBox.Show("حدث خطأ أثناء البحث: " + ex.Message);
+                MessageBox.Show("Error:" + ex.Message);
             }
         }
 

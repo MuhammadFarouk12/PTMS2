@@ -18,8 +18,6 @@ namespace LoginForm
         {
             InitializeComponent();
         }
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234";
-
         private void AddTest_Load(object sender, EventArgs e)
         {
 
@@ -143,7 +141,7 @@ namespace LoginForm
 
             try
             {
-                using (MySqlConnection conn = new MySqlConnection(ConnectionString))
+                using (MySqlConnection conn = new MySqlConnection(DatabaseUtil.ConnectionString))
                 {
                     conn.Open();
                     MySqlCommand cmd = conn.CreateCommand();
