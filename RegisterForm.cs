@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Text.RegularExpressions;
+
 
 namespace LoginForm
 {
@@ -24,7 +26,56 @@ namespace LoginForm
             this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
         }
 
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";
+        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=Hamed#51234";
+
+        private bool ValidateForm()
+{
+    
+    errorProvider1.Clear();
+
+    bool isValid = true;
+
+    
+    if (string.IsNullOrWhiteSpace(txtbFirstName.Text))
+    {
+                MessageBox.Show("Please enter your first name");
+                isValid = false;
+    }
+
+   
+    if (string.IsNullOrWhiteSpace(txtbLastName.Text))
+    {
+                MessageBox.Show("Please enter your last name");
+                isValid = false;
+    }
+ 
+
+   
+    if (string.IsNullOrWhiteSpace(txb_phone_number.Text))
+    {
+                MessageBox.Show("Please enter your phone number");
+                isValid = false;
+    }
+    else if (!Regex.IsMatch(txb_phone_number.Text, @"^\d{9}$"))
+    {
+                MessageBox.Show(" Phone number must contain nine digits");
+                isValid = false;
+    }
+           
+   
+    if (string.IsNullOrWhiteSpace(txbPassword.Text))
+    {
+                MessageBox.Show("Please enter your password");
+                isValid = false;
+    }
+    else if (txbPassword.Text.Length < 6)
+    {
+                MessageBox.Show("Password must be at least six characters long");
+                isValid = false;
+    }
+
+    return isValid;
+}
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
@@ -43,8 +94,15 @@ namespace LoginForm
 
         private void btnSignUP_Click(object sender, EventArgs e)
         {
-              // insert data to database 
-              try
+
+            if (!ValidateForm())
+            {
+                MessageBox.Show("Please correct any error before proceeding", "data error",
+                      MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            // insert data to database 
+            try
             {
                 using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
                 {
@@ -98,6 +156,11 @@ namespace LoginForm
         private void txb_phone_number_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtbFirstName_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

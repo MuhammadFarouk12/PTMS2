@@ -67,8 +67,11 @@ namespace LoginForm
                 new PopQuestion().Show();
             } else
             {
-                Examination.end_time = DateTime.Now.ToString("yy:MM:dd HH:mm:ss");
-                MessageBox.Show("You have finsihed the exam successfully");
+                Certificate cer = new Certificate();
+                
+                cer.Show();
+                this.Hide();
+
               try
             {
                 using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))

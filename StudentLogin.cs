@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace LoginForm
 {
@@ -26,7 +27,41 @@ namespace LoginForm
 
         }
 
-        public string ConnectionString =  "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";        
+        public string ConnectionString =  "Server=localhost;Database=OEAMS;Uid=root;pwd=Hamed#51234";
+
+        private bool ValidateForm()
+        {
+
+            errorProvider1.Clear();
+
+            bool isValid = true;
+
+
+            if (string.IsNullOrWhiteSpace(txb_phone_number.Text))
+            {
+                MessageBox.Show("Please enter your phone number");
+                isValid = false;
+            }
+            else if (!Regex.IsMatch(txb_phone_number.Text, @"^\d{9}$"))
+            {
+                MessageBox.Show(" Phone number must contain nine digits");
+                isValid = false;
+            }
+
+
+            if (string.IsNullOrWhiteSpace(txtbPassword.Text))
+            {
+                MessageBox.Show("Please enter your password");
+                isValid = false;
+            }
+            else if (txtbPassword.Text.Length < 6)
+            {
+                MessageBox.Show("Password must be at least six characters long");
+                isValid = false;
+            }
+
+            return isValid;
+        }
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
@@ -125,6 +160,14 @@ namespace LoginForm
 
         private void btnLogin_Click_1(object sender, EventArgs e)
         {
+
+
+            if (!ValidateForm())
+            {
+                MessageBox.Show("Please correct any error before proceeding", "data error",
+                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(DatabaseUtil.ConnectionString))
