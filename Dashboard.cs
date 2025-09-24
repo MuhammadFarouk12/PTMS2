@@ -15,12 +15,7 @@ namespace LoginForm
 {
     public partial class Dashboard : Form
     {
-<<<<<<< HEAD
-       
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=himo7723**";
-=======
 
->>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
         public Dashboard()
         {
             InitializeComponent();

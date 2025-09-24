@@ -42,15 +42,21 @@
             this.comboBox_SelectTest.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_SelectTest.FormattingEnabled = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.comboBox_SelectTest.Location = new System.Drawing.Point(223, 33);
             this.comboBox_SelectTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.comboBox_SelectTest.Name = "comboBox_SelectTest";
             this.comboBox_SelectTest.Size = new System.Drawing.Size(438, 29);
 =======
+=======
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.comboBox_SelectTest.Location = new System.Drawing.Point(191, 27);
             this.comboBox_SelectTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox_SelectTest.Name = "comboBox_SelectTest";
             this.comboBox_SelectTest.Size = new System.Drawing.Size(376, 25);
+<<<<<<< HEAD
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
+=======
 >>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.comboBox_SelectTest.TabIndex = 0;
             // 
@@ -59,15 +65,21 @@
             this.button_ShowTest.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ShowTest.ForeColor = System.Drawing.Color.Black;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.button_ShowTest.Location = new System.Drawing.Point(668, 32);
             this.button_ShowTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button_ShowTest.Name = "button_ShowTest";
             this.button_ShowTest.Size = new System.Drawing.Size(124, 30);
 =======
+=======
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.button_ShowTest.Location = new System.Drawing.Point(573, 26);
             this.button_ShowTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_ShowTest.Name = "button_ShowTest";
             this.button_ShowTest.Size = new System.Drawing.Size(106, 24);
+<<<<<<< HEAD
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
+=======
 >>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.button_ShowTest.TabIndex = 1;
             this.button_ShowTest.Text = "Show";
@@ -99,8 +111,13 @@
             this.DataGridView_ShowTest.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.DataGridView_ShowTest.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DataGridView_ShowTest.Location = new System.Drawing.Point(0, 69);
             this.DataGridView_ShowTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+=======
+            this.DataGridView_ShowTest.Location = new System.Drawing.Point(0, 56);
+            this.DataGridView_ShowTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
 =======
             this.DataGridView_ShowTest.Location = new System.Drawing.Point(0, 56);
             this.DataGridView_ShowTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -110,7 +127,11 @@
             this.DataGridView_ShowTest.RowHeadersWidth = 51;
             this.DataGridView_ShowTest.RowTemplate.Height = 26;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DataGridView_ShowTest.Size = new System.Drawing.Size(1028, 671);
+=======
+            this.DataGridView_ShowTest.Size = new System.Drawing.Size(881, 545);
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
 =======
             this.DataGridView_ShowTest.Size = new System.Drawing.Size(881, 545);
 >>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
@@ -141,6 +162,7 @@
             // TestView
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1028, 740);
@@ -150,6 +172,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
 =======
+=======
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(881, 601);
@@ -157,6 +181,9 @@
             this.Controls.Add(this.button_ShowTest);
             this.Controls.Add(this.comboBox_SelectTest);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+<<<<<<< HEAD
+>>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
+=======
 >>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
             this.Name = "TestView";
             this.Text = "TestView";

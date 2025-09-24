@@ -44,20 +44,13 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
-            this.dataGridView1.Location = new System.Drawing.Point(202, 10);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(979, 737);
-=======
+
             this.dataGridView1.Location = new System.Drawing.Point(576, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1469, 909);
->>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
+
             this.dataGridView1.TabIndex = 0;
             // 
             // but_search
@@ -199,10 +192,7 @@
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1191, 773);
-=======
+
             this.ClientSize = new System.Drawing.Size(2176, 1139);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.txb_lastName);
@@ -213,7 +203,7 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.teb_name);
             this.Controls.Add(this.but_search);
->>>>>>> 7344819d6b053c95c8ffcdeb8f608bc91862007c
+
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
