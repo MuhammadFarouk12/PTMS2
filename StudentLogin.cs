@@ -26,7 +26,7 @@ namespace LoginForm
 
         }
 
-        public string ConnectionString =  "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";        
+        public string ConnectionString =  "Server=localhost;Database=OEAMS;Uid=root;pwd=himo7723**";        
 
         private void LoginForm_Load(object sender, EventArgs e)
         {

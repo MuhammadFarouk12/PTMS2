@@ -1,42 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muham\\source\\repos\\PTMS2\\",
+  "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\adminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\muham\\source\\repos\\ptms2\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\testview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\testview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:welcomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +58,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AdminLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
               "RelativeDocumentMoniker": "AdminLogin.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
               "RelativeToolTip": "AdminLogin.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAEQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T22:00:43.849Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavForm.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs",
+              "RelativeDocumentMoniker": "NavForm.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs",
+              "RelativeToolTip": "NavForm.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAhwGUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T18:56:46.793Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestView.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
+              "RelativeDocumentMoniker": "TestView.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
+              "RelativeToolTip": "TestView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:43:27.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:43:04.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -70,39 +123,74 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:24:58.034Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "chngPassForm.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
+              "RelativeDocumentMoniker": "chngPassForm.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
+              "RelativeToolTip": "chngPassForm.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T14:31:22.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "chngPassForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
+              "RelativeDocumentMoniker": "chngPassForm.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs [Design]",
+              "RelativeToolTip": "chngPassForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T14:27:49.444Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TestView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\TestView.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
               "RelativeDocumentMoniker": "TestView.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\TestView.cs [Design]",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs [Design]",
               "RelativeToolTip": "TestView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-09-22T05:01:45.121Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:01:45.121Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TestView.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\TestView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.Designer.cs",
               "RelativeDocumentMoniker": "TestView.Designer.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\TestView.Designer.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.Designer.cs",
               "RelativeToolTip": "TestView.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2025-09-22T05:01:41.601Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:01:41.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "WelcomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\WelcomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\WelcomeForm.cs",
               "RelativeDocumentMoniker": "WelcomeForm.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\WelcomeForm.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\WelcomeForm.cs",
               "RelativeToolTip": "WelcomeForm.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAUwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,61 +199,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WelcomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\WelcomeForm.cs",
-              "RelativeDocumentMoniker": "WelcomeForm.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\WelcomeForm.cs [Design]",
-              "RelativeToolTip": "WelcomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-09-22T04:51:46.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AdminLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
               "RelativeDocumentMoniker": "AdminLogin.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.cs [Design]",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs [Design]",
               "RelativeToolTip": "AdminLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T03:54:56.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.Designer.cs",
-              "RelativeDocumentMoniker": "AdminLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\AdminLogin.Designer.cs",
-              "RelativeToolTip": "AdminLogin.Designer.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAkwJ8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:49:33.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavForm.cs",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
-              "RelativeDocumentMoniker": "NavForm.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
-              "RelativeToolTip": "NavForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAArwE4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-09-21T18:56:46.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NavForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs",
               "RelativeDocumentMoniker": "NavForm.cs",
-              "ToolTip": "C:\\Users\\Muham\\source\\repos\\PTMS2\\NavForm.cs [Design]",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs [Design]",
               "RelativeToolTip": "NavForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-09-21T18:43:32.875Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T18:43:32.875Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

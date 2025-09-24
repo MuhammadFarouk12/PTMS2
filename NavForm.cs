@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace LoginForm
@@ -24,16 +25,14 @@ namespace LoginForm
             // Remove any existing controls
             panelContent.Controls.Clear();
 
-            // Configure the form to be embedded
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;
             form.Dock = DockStyle.Fill;
             form.AutoSize = false;
 
-            // Add to panel
             panelContent.Controls.Add(form);
 
-            // Show the form
+
             form.Show();
             form.BringToFront();
         }
@@ -80,9 +79,27 @@ namespace LoginForm
 
         private void guna2PictureBox5_Click(object sender, EventArgs e)
         {
-            TestView viewTests = new TestView();
-            viewTests.Show();
-            this.Hide();
+            //Examination examination = new Examination();
+            //examination.Show();
+            //this.Hide();
+        }
+
+        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
+        {
+            chngPassForm changePassform = new chngPassForm();
+            LoadFormIntoPanel(changePassform);
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            LoadFormIntoPanel(dashboard);
+        }
+
+        private void guna2PictureBox7_Click(object sender, EventArgs e)
+        {
+            TestView testView = new TestView();
+            LoadFormIntoPanel(testView);
         }
     }
 }

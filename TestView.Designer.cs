@@ -41,20 +41,20 @@
             // 
             this.comboBox_SelectTest.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_SelectTest.FormattingEnabled = true;
-            this.comboBox_SelectTest.Location = new System.Drawing.Point(191, 27);
-            this.comboBox_SelectTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox_SelectTest.Location = new System.Drawing.Point(223, 33);
+            this.comboBox_SelectTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.comboBox_SelectTest.Name = "comboBox_SelectTest";
-            this.comboBox_SelectTest.Size = new System.Drawing.Size(376, 25);
+            this.comboBox_SelectTest.Size = new System.Drawing.Size(438, 29);
             this.comboBox_SelectTest.TabIndex = 0;
             // 
             // button_ShowTest
             // 
             this.button_ShowTest.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ShowTest.ForeColor = System.Drawing.Color.Black;
-            this.button_ShowTest.Location = new System.Drawing.Point(573, 26);
-            this.button_ShowTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button_ShowTest.Location = new System.Drawing.Point(668, 32);
+            this.button_ShowTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button_ShowTest.Name = "button_ShowTest";
-            this.button_ShowTest.Size = new System.Drawing.Size(106, 24);
+            this.button_ShowTest.Size = new System.Drawing.Size(124, 30);
             this.button_ShowTest.TabIndex = 1;
             this.button_ShowTest.Text = "Show";
             this.button_ShowTest.UseVisualStyleBackColor = true;
@@ -84,13 +84,13 @@
             this.DataGridView_ShowTest.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridView_ShowTest.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.DataGridView_ShowTest.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridView_ShowTest.Location = new System.Drawing.Point(0, 56);
-            this.DataGridView_ShowTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DataGridView_ShowTest.Location = new System.Drawing.Point(0, 69);
+            this.DataGridView_ShowTest.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.DataGridView_ShowTest.Name = "DataGridView_ShowTest";
             this.DataGridView_ShowTest.RowHeadersVisible = false;
             this.DataGridView_ShowTest.RowHeadersWidth = 51;
             this.DataGridView_ShowTest.RowTemplate.Height = 26;
-            this.DataGridView_ShowTest.Size = new System.Drawing.Size(881, 545);
+            this.DataGridView_ShowTest.Size = new System.Drawing.Size(1028, 671);
             this.DataGridView_ShowTest.TabIndex = 2;
             this.DataGridView_ShowTest.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.DataGridView_ShowTest.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -117,13 +117,14 @@
             // 
             // TestView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 601);
+            this.ClientSize = new System.Drawing.Size(1028, 740);
             this.Controls.Add(this.DataGridView_ShowTest);
             this.Controls.Add(this.button_ShowTest);
             this.Controls.Add(this.comboBox_SelectTest);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "TestView";
             this.Text = "TestView";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

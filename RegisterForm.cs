@@ -24,7 +24,7 @@ namespace LoginForm
             this.BackColor = ColorTranslator.FromHtml("#E0E0E0");
         }
 
-        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=1234567890";
+        public string ConnectionString = "Server=localhost;Database=OEAMS;Uid=root;pwd=himo7723**";
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {

@@ -17,6 +17,7 @@ namespace LoginForm
         public AdminLogin()
         {
             InitializeComponent();
+            guna2Panel2.BackColor = ColorTranslator.FromHtml("#E6F0F9");
         }
 
         
@@ -26,7 +27,7 @@ namespace LoginForm
             AddTest addTest = new AddTest();
             addTest.Show();
         }
-        private string PasswordFilePath = "admin-pass.txt";
+        
         private void AdminLogin_Load(object sender, EventArgs e)
         {
             guna2Panel2.Location = new Point(
@@ -35,38 +36,41 @@ namespace LoginForm
             );
         }
 
+        private string PasswordFilePath => Application.StartupPath + "\\admin-pass.txt";
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            // DEBUG: Show path (keep this for verification)
+            MessageBox.Show("USING: " + PasswordFilePath, "DEBUG",
+                           MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // AUTO-CREATE FILE IF MISSING (USING SAFE WRITE)
             if (!File.Exists(PasswordFilePath))
             {
-                MessageBox.Show("Password file missing!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                FileHelper.SafeWriteAllText(PasswordFilePath, "admin");
+                MessageBox.Show("AUTO-CREATED FILE WITH DEFAULT PASSWORD 'admin'");
             }
 
             string enteredPass = txtPassword.Text;
 
-            try
-            {
-                string storedPass = File.ReadAllText(PasswordFilePath).Trim();
+            // READ PASSWORD (USING SAFE READ)
+            string storedPass = FileHelper.SafeReadAllText(PasswordFilePath);
 
-                if (enteredPass == storedPass)
-                {
-                    MessageBox.Show("Login successful!", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
-                    NavForm navForm = new NavForm();
-                    navForm.Show();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Incorrect password.", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtPassword.Clear();
-                    txtPassword.Focus();
-                }
-            }
-            catch (Exception ex)
+            if (enteredPass == storedPass)
             {
-                MessageBox.Show("Error reading password:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Login successful!", "Welcome",
+                               MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide();
+                NavForm navForm = new NavForm();
+                navForm.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect password.", "Try Again",
+                               MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPassword.Clear();
+                txtPassword.Focus();
             }
     }
 
