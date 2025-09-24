@@ -45,9 +45,10 @@
             // 
             this.guna2PictureBox1.Image = global::LoginForm.Properties.Resources.Log;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(30, 22);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(39, 28);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(348, 257);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(447, 321);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 11;
             this.guna2PictureBox1.TabStop = false;
@@ -62,9 +63,10 @@
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel2.Controls.Add(this.txb_phone_number);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel2.Location = new System.Drawing.Point(89, 183);
+            this.guna2Panel2.Location = new System.Drawing.Point(114, 229);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(935, 459);
+            this.guna2Panel2.Size = new System.Drawing.Size(1202, 574);
             this.guna2Panel2.TabIndex = 10;
             this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint_1);
             // 
@@ -76,10 +78,10 @@
             this.btnCancle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCancle.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancle.ForeColor = System.Drawing.Color.White;
-            this.btnCancle.Location = new System.Drawing.Point(701, 319);
-            this.btnCancle.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnCancle.Location = new System.Drawing.Point(901, 399);
+            this.btnCancle.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.btnCancle.Name = "btnCancle";
-            this.btnCancle.Size = new System.Drawing.Size(130, 46);
+            this.btnCancle.Size = new System.Drawing.Size(167, 58);
             this.btnCancle.TabIndex = 9;
             this.btnCancle.Text = "Cancel";
             this.btnCancle.Click += new System.EventHandler(this.btnCancle_Click_1);
@@ -92,10 +94,10 @@
             this.btnRegister.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(396, 319);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnRegister.Location = new System.Drawing.Point(509, 399);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(130, 46);
+            this.btnRegister.Size = new System.Drawing.Size(167, 58);
             this.btnRegister.TabIndex = 8;
             this.btnRegister.Text = "Register";
             this.btnRegister.Click += new System.EventHandler(this.btnSignUP_Click_1);
@@ -111,12 +113,12 @@
             this.txtbPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtbPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtbPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbPassword.Location = new System.Drawing.Point(307, 194);
-            this.txtbPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtbPassword.Location = new System.Drawing.Point(395, 242);
+            this.txtbPassword.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtbPassword.Name = "txtbPassword";
             this.txtbPassword.PlaceholderText = "";
             this.txtbPassword.SelectedText = "";
-            this.txtbPassword.Size = new System.Drawing.Size(536, 48);
+            this.txtbPassword.Size = new System.Drawing.Size(689, 60);
             this.txtbPassword.TabIndex = 4;
             // 
             // btnLogin
@@ -127,10 +129,10 @@
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(122, 319);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnLogin.Location = new System.Drawing.Point(157, 399);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(130, 46);
+            this.btnLogin.Size = new System.Drawing.Size(167, 58);
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "Log In";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
@@ -140,10 +142,10 @@
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(48, 111);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(62, 139);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(240, 48);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(309, 60);
             this.guna2HtmlLabel1.TabIndex = 6;
             this.guna2HtmlLabel1.Text = "Phone Number";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click_1);
@@ -159,12 +161,12 @@
             this.txb_phone_number.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txb_phone_number.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txb_phone_number.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txb_phone_number.Location = new System.Drawing.Point(307, 111);
-            this.txb_phone_number.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txb_phone_number.Location = new System.Drawing.Point(395, 139);
+            this.txb_phone_number.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txb_phone_number.Name = "txb_phone_number";
             this.txb_phone_number.PlaceholderText = "";
             this.txb_phone_number.SelectedText = "";
-            this.txb_phone_number.Size = new System.Drawing.Size(536, 48);
+            this.txb_phone_number.Size = new System.Drawing.Size(689, 60);
             this.txb_phone_number.TabIndex = 7;
             this.txb_phone_number.TextChanged += new System.EventHandler(this.txb_phone_number_TextChanged_1);
             // 
@@ -173,22 +175,22 @@
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(48, 196);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(62, 245);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(212, 46);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(273, 58);
             this.guna2HtmlLabel3.TabIndex = 2;
             this.guna2HtmlLabel3.Text = "Password";
             // 
             // StudentLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 678);
+            this.ClientSize = new System.Drawing.Size(1434, 848);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "StudentLogin";
             this.Text = "MainForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
