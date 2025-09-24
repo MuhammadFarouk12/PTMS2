@@ -30,68 +30,83 @@ namespace LoginForm
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            // DEBUG: Show path (keep this for verification)
-            MessageBox.Show("SAVING TO: " + PasswordFilePath, "DEBUG",
+            / 1.GET THE EXACT PATH WE NEED
+    string path = Path.Combine(Application.StartupPath, "admin-pass.txt");
+
+            // 2. VERIFY THE PATH (SHOW IT TO YOU)
+            MessageBox.Show($"🔍 SAVING TO: {path}", "DEBUG",
                            MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            string currentPass = txtCurrent.Text;
-            string newPass = txtNew.Text;
-            string confirmPass = txtConfirm.Text;
-
-            // VALIDATE INPUTS
-            if (string.IsNullOrWhiteSpace(currentPass))
-            {
-                MessageBox.Show("Please enter current password.");
-                txtCurrent.Focus();
-                return;
-            }
-            if (string.IsNullOrWhiteSpace(newPass) || newPass.Length < 4)
-            {
-                MessageBox.Show("New password must be at least 4 characters.");
-                txtNew.Clear();
-                txtConfirm.Clear();
-                txtNew.Focus();
-                return;
-            }
-            if (newPass != confirmPass)
-            {
-                MessageBox.Show("New passwords don't match.");
-                txtNew.Clear();
-                txtConfirm.Clear();
-                txtNew.Focus();
-                return;
-            }
-
+            // 3. READ CURRENT PASSWORD
+            string currentPass = "";
             try
             {
-                // VERIFY CURRENT PASSWORD (USING SAFE READ)
-                string storedPass = FileHelper.SafeReadAllText(PasswordFilePath);
-                if (currentPass != storedPass)
+                using (StreamReader reader = new StreamReader(path))
                 {
-                    MessageBox.Show("Current password is incorrect.");
-                    txtCurrent.Clear();
-                    txtCurrent.Focus();
+                    currentPass = reader.ReadToEnd().Trim();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("❌ Could not read current password");
+                return;
+            }
+
+            // 4. VALIDATE
+            if (txtCurrent.Text != currentPass)
+            {
+                MessageBox.Show("❌ Current password is wrong");
+                return;
+            }
+
+            if (txtNew.Text.Length < 4)
+            {
+                MessageBox.Show("❌ Password must be 4+ characters");
+                return;
+            }
+            if (txtNew.Text != txtConfirm.Text)
+            {
+                MessageBox.Show("❌ Passwords don't match");
+                return;
+            }
+
+            // 5. WRITE WITH STREAMWRITER (CORRECTLY)
+            try
+            {
+                // FIRST: DELETE OLD FILE (bypasses caching)
+                if (File.Exists(path))
+                {
+                    File.SetAttributes(path, FileAttributes.Normal);
+                    File.Delete(path);
+                }
+
+                // SECOND: WRITE NEW CONTENT
+                using (StreamWriter writer = new StreamWriter(path))
+                {
+                    writer.Write(txtNew.Text);
+                }
+
+                // THIRD: VERIFY IMMEDIATELY
+                string verification = "";
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    verification = reader.ReadToEnd().Trim();
+                }
+
+                if (verification != txtNew.Text)
+                {
+                    MessageBox.Show("❌ WRITE FAILED!\n" +
+                                   $"EXPECTED: '{txtNew.Text}'\n" +
+                                   $"ACTUAL: '{verification}'");
                     return;
                 }
-                // SAVE NEW PASSWORD (USING SAFE WRITE)
-                FileHelper.SafeWriteAllText(PasswordFilePath, newPass);
-
-                // VERIFY IMMEDIATELY (USING SAFE READ)
-                string verification = FileHelper.SafeReadAllText(PasswordFilePath);
-                if (verification != newPass)
-                {
-                    MessageBox.Show("Write failed! Contact developer.");
-                    return;
-                }
-
-                MessageBox.Show("Password changed successfully!", "Success",
-                               MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("✅ Password changed successfully!");
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show($"❌ SAVE ERROR: {ex.Message}");
             }
         }
 

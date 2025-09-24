@@ -22,12 +22,7 @@ namespace LoginForm
 
         
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            AddTest addTest = new AddTest();
-            addTest.Show();
-        }
-        
+
         private void AdminLogin_Load(object sender, EventArgs e)
         {
             guna2Panel2.Location = new Point(
@@ -37,42 +32,59 @@ namespace LoginForm
         }
 
         private string PasswordFilePath => Application.StartupPath + "\\admin-pass.txt";
+        string storedPass = PasswordStore.ReadPassword();
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // DEBUG: Show path (keep this for verification)
-            MessageBox.Show("USING: " + PasswordFilePath, "DEBUG",
+            // 1. GET THE EXACT PATH WE NEED
+            string path = Path.Combine(Application.StartupPath, "admin-pass.txt");
+
+            // 2. VERIFY THE PATH (SHOW IT TO YOU)
+            MessageBox.Show($"🔍 READING FROM: {path}", "DEBUG",
                            MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            // AUTO-CREATE FILE IF MISSING (USING SAFE WRITE)
-            if (!File.Exists(PasswordFilePath))
+            // 3. AUTO-CREATE IF MISSING
+            if (!File.Exists(path))
             {
-                FileHelper.SafeWriteAllText(PasswordFilePath, "admin");
-                MessageBox.Show("AUTO-CREATED FILE WITH DEFAULT PASSWORD 'admin'");
+                File.WriteAllText(path, "admin");
+                MessageBox.Show("📁 Created default password file", "Setup",
+                               MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
-            string enteredPass = txtPassword.Text;
-
-            // READ PASSWORD (USING SAFE READ)
-            string storedPass = FileHelper.SafeReadAllText(PasswordFilePath);
-
-            if (enteredPass == storedPass)
+            // 4. READ WITH STREAMREADER (CORRECTLY)
+            string storedPass = "";
+            try
             {
-                MessageBox.Show("Login successful!", "Welcome",
-                               MessageBoxButtons.OK, MessageBoxIcon.Information);
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    storedPass = reader.ReadToEnd().Trim();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"❌ READ ERROR: {ex.Message}");
+                return;
+            }
+
+            // 5. VERIFY WHAT WE READ
+            MessageBox.Show($"🔍 READ VALUE: '{storedPass}'", "DEBUG",
+                           MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // 6. CHECK PASSWORD
+            if (txtPassword.Text == storedPass)
+            {
+                MessageBox.Show("✅ Login successful!");
                 this.Hide();
-                NavForm navForm = new NavForm();
-                navForm.ShowDialog();
+                new NavForm().ShowDialog();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Incorrect password.", "Try Again",
-                               MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("❌ Incorrect password.");
                 txtPassword.Clear();
                 txtPassword.Focus();
             }
-    }
+        }
 
         private void btnExit_Click(object sender, EventArgs e)
         {

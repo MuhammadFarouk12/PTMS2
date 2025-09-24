@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\admin-pass.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:admin-pass.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:NavForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:navform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|c:\\users\\victus\\desktop\\ptms2\\testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:testview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|solutionrelative:chngpassform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41D487B-68EE-4710-A5A5-D7C938A1DD9C}|BrightTest.csproj|C:\\Users\\VICTUS\\Desktop\\PTMS2\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,25 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminLogin.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
-              "RelativeDocumentMoniker": "AdminLogin.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
-              "RelativeToolTip": "AdminLogin.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T22:00:43.849Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "NavForm.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs",
               "RelativeDocumentMoniker": "NavForm.cs",
@@ -85,33 +75,20 @@
               "ViewState": "AgIAAE0AAAAAAAAAAAAhwGUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T18:56:46.793Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "AdminLogin.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
+              "RelativeToolTip": "AdminLogin.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T22:00:43.849Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TestView.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
-              "RelativeDocumentMoniker": "TestView.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
-              "RelativeToolTip": "TestView.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwDwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:43:27.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:43:04.945Z",
               "EditorCaption": ""
             },
             {
@@ -124,32 +101,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:24:58.034Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "chngPassForm.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
               "RelativeDocumentMoniker": "chngPassForm.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
               "RelativeToolTip": "chngPassForm.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAowF4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowG0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T14:31:22.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "admin-pass.txt",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\admin-pass.txt",
+              "RelativeDocumentMoniker": "admin-pass.txt",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\admin-pass.txt",
+              "RelativeToolTip": "admin-pass.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-24T21:57:04.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestView.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
+              "RelativeDocumentMoniker": "TestView.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
+              "RelativeToolTip": "TestView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:43:27.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:43:04.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:24:58.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "chngPassForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\chngPassForm.cs",
               "RelativeDocumentMoniker": "chngPassForm.cs",
@@ -161,19 +174,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TestView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs",
               "RelativeDocumentMoniker": "TestView.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.cs [Design]",
               "RelativeToolTip": "TestView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:01:45.121Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-22T05:01:45.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TestView.Designer.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\TestView.Designer.cs",
               "RelativeDocumentMoniker": "TestView.Designer.cs",
@@ -181,12 +193,11 @@
               "RelativeToolTip": "TestView.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:01:41.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T05:01:41.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WelcomeForm.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\WelcomeForm.cs",
               "RelativeDocumentMoniker": "WelcomeForm.cs",
@@ -194,31 +205,30 @@
               "RelativeToolTip": "WelcomeForm.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAUwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T04:52:11.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T04:52:11.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AdminLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs",
               "RelativeDocumentMoniker": "AdminLogin.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\AdminLogin.cs [Design]",
               "RelativeToolTip": "AdminLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:54:56.966Z"
+              "WhenOpened": "2025-09-22T03:54:56.966Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NavForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs",
               "RelativeDocumentMoniker": "NavForm.cs",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\PTMS2\\NavForm.cs [Design]",
               "RelativeToolTip": "NavForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:43:32.875Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-21T18:43:32.875Z"
             }
           ]
         }
